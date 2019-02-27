@@ -33,6 +33,7 @@ def hit?(sum)
   input = get_user_input
   if input == "h"
     sum += deal_card
+    return sum
     elsif input == "s"
       return sum
       else 
